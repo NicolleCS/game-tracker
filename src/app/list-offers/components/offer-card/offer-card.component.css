@@ -1,0 +1,19 @@
+.card {
+    @apply rounded-lg text-start w-76 m-0 h-fit text-white shadow-lg bg-dark-blue xl:w-95 xl:h-63;
+}
+
+.content {
+    @apply relative flex flex-row justify-between mt-3;
+}
+
+.price {
+    @apply font-thin text-10 xl:text-xs line-through text-end;
+}
+
+.discount-content {
+    @apply w-fit rounded-lg bg-dark-cyan py-2 px-3 ml-2;
+}
+
+.detail-btn {
+    @apply bg-strong-pink rounded-lg py-2 px-3 font-bold text-sm xl:text-lg;
+}

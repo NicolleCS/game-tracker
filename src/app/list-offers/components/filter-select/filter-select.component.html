@@ -1,0 +1,6 @@
+<div class="content">
+    <label for="offer-filter" class="font-bold text-10 xl:text-lg">Ordenar por:</label>
+    <select name="offer-filter" id="offer-filter" [(ngModel)]="actualFilter" (change)="onChange($event.target.value)">
+        <option *ngFor="let filter of filterTypes" [value]="filter.type">{{filter.name}}</option>
+    </select>
+</div>

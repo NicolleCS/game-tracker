@@ -1,0 +1,11 @@
+input {
+    @apply ml-4 w-full bg-dark-blue focus:outline-none;
+}
+
+.content {
+    @apply w-50 h-9 justify-start relative flex flex-row shadow-lg bg-dark-blue font-thin text-white rounded-lg py-2 px-3 max-[330px]:w-40 xl:py-3 xl:px-4 xl:w-95 xl:h-13;
+}
+
+.icon path {
+    fill: rgba(255, 255, 255, 0.5) !important;
+} 

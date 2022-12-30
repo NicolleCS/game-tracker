@@ -1,0 +1,16 @@
+img {
+    width: 1.979rem;
+    height: 2.009rem;
+}
+
+footer {
+    @apply w-full h-86 md:h-78 bottom-0 left-0 right-0 flex bg-dark-blue text-white px-2 py-5 md:px-24 md:py-12 content-center
+}
+
+footer .content {
+    @apply grid grid-cols-1 gap-3 md:gap-5 text-xs md:text-sm
+}
+
+.footer-links {
+   @apply mt-2 text-center block md:text-left md:w-fit md:mr-11;
+}

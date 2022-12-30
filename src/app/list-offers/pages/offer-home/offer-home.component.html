@@ -1,0 +1,18 @@
+<div class="content">
+    <div class="h-fit justify-start">
+        <p class="title">Ofertas</p>
+    </div>
+
+    <div class="grid grid-cols-2 items-end mt-2 xl:mt-6">
+        <app-search-input (searchValue)="searchOffer($event)" class="h-fit"></app-search-input>
+        <app-filter-select (selectedFilter)="orderBy($event)" class="h-fit justify-self-end"></app-filter-select>
+    </div>
+
+    <div class="card-container">
+        <app-offer-card *ngFor="let offerObject of offersList" [offer]="offerObject"></app-offer-card>
+    </div>
+    <button *ngIf="!isSearching" class="more-button" [disabled]="isLoading()" (click)="nextPage()">
+        Carregar mais
+    </button>
+</div>
+

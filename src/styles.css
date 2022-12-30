@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    display: table;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    @apply bg-gradient-to-bl from-strong-pink to-dark-blue bg-cover bg-no-repeat bg-center;
+}
+
+:host {
+    height: 100vh;
+}

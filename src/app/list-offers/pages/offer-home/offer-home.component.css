@@ -1,0 +1,19 @@
+app-offer-card {
+    @apply w-fit h-fit inline-block justify-self-center mt-5 md:mt-0;
+}
+
+.content {
+    @apply w-full h-fit text-white text-center py-5 xl:pt-13;
+}
+
+.title {
+    @apply font-light text-center text-lg lg:text-start lg:text-3xl xl:text-4xl;
+}
+
+.card-container {
+    @apply text-center h-full sm:grid sm:grid-cols-2 sm:gap-x-1 sm:gap-y-1 md:gap-x-2 md:gap-y-2 lg:grid-cols-3 mt-5 xl:gap-x-5 lg:mt-9 md:grid xl:gap-y-5;
+}
+
+.more-button {
+    @apply bg-dark-blue justify-center self-center items-center rounded-lg font-light text-white mt-8 md:text-lg w-76 h-13 md:w-95 md:col-start-2 disabled:bg-disable;
+}

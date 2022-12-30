@@ -1,0 +1,12 @@
+nav {
+    @apply w-full h-13 left-0 right-0 top-0 bg-dark-blue fixed flex shadow-4x4 z-50;
+}
+
+.content {
+    @apply flex w-full h-full items-center justify-center md:justify-start md:pl-32;
+}
+
+img {
+    width:12.125rem;
+    height:2.009rem;
+}
