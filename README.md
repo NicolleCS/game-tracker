@@ -1,6 +1,5 @@
 # Game tracker :video_game:
-O projeto é um painel que lista e filtra as p
-romoções dos jogos de uma [**API externa**](https://www.cheapshark.com/api/1.0/deals)
+O projeto é um painel que lista e filtra as promoções dos jogos de uma [**API externa**](https://www.cheapshark.com/api/)
 ## Executar o projeto
 
 Para executar o projeto, siga estes passos:
